@@ -17,6 +17,7 @@ class CreateTableAdmin extends Migration
             $table->Increments('id_admin');
             $table->string('username', 100);
             $table->string('password', 100);
+            $table->UnsignedInteger('id_login');
         });
     }
 
