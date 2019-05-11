@@ -15,6 +15,9 @@ class CreateTablePenyewaan extends Migration
     {
         Schema::create('table_penyewaan', function (Blueprint $table) {
             $table->Increments('id_penyewaan');
+            $table->string('nama_ruangan');
+            $table->string('nama_mahasiswa');
+            $table->string('nim');
             $table->date('tgl_sewa');
             $table->date('tgl_selesai');
         });

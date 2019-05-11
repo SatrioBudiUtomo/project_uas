@@ -34,7 +34,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Silahkan login terlebih dahulu</p>
 
     <form action="/postlogin" method="POST">
         {{ csrf_field() }}
@@ -64,8 +64,6 @@
 
   
     <!-- /.social-auth-links -->
-
-    <a href="#">I forgot my password</a><br>
     <a href="register.html" class="text-center">Register a new membership</a>
 
   </div>
